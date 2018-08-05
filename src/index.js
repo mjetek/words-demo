@@ -20,7 +20,8 @@ class App extends Component {
           leave={{
             opacity: 0,
             transform: 'scale(0)',
-            pointerEvents: 'none'
+            pointerEvents: 'none',
+            display: 'none'
           }}
         >
           {playing

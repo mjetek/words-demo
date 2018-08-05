@@ -18,8 +18,14 @@ body {
 }
 
 .content {
-  padding: 3rem;
+  padding: 2rem;
   margin: 0;
+}
+
+@media (min-width: 800px) {
+  .content {
+    padding: 3rem;
+  }
 }
 
 .center {
@@ -40,6 +46,8 @@ input[type='text'] {
   border: none;
   outline: none;
   padding: 1rem;
+  width: 0;
+  min-width: 0;
   flex-grow: 1;
   color: rebeccapurple;
 }
@@ -53,9 +61,4 @@ button {
   border: solid 2px;
   background: #66339954;
   cursor: pointer;
-}
-
-.center-wrapper {
-  margin-top: 3rem;
-  text-align: center;
 }
