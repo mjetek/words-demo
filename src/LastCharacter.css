@@ -1,0 +1,15 @@
+.last-character {
+  border-radius: 1rem;
+  font-size: 2.8rem;
+  background: #66339954;
+  box-shadow: 0px 0px 30px 0px #66339954;
+  width: 5rem;
+  height: 5rem;
+  line-height: 5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}

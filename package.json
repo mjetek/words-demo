@@ -1,0 +1,31 @@
+{
+  "name": "words-demo",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Michal Jarosz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mjetek/words-demo.git"
+  },
+  "dependencies": {
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "react-redux": "5.0.7",
+    "react-scripts": "1.1.4",
+    "react-spring": "^5.5.4",
+    "redux": "4.0.0",
+    "redux-saga": "0.16.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
