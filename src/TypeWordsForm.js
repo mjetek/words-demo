@@ -5,7 +5,7 @@ class TypeWordsForm extends Component {
   handleSubmit = event => {
     event.preventDefault()
     const text = event.target.text.value
-    const words = text.split(/\s/)
+    const words = text.split(/\s/).filter(Boolean)
     this.props.setWords(words)
   }
 
@@ -14,6 +14,8 @@ class TypeWordsForm extends Component {
     return (
       <form {...props} className="form" onSubmit={this.handleSubmit}>
         <input
+          required
+          pattern=".*\S.*"
           type="text"
           name="text"
           placeholder="Type your words"
